@@ -27,3 +27,18 @@ The app is a Learning Management System mobile application for interns. It allow
 ## Purpose
 
 The purpose of this app is to provide interns with a smooth mobile learning experience where they can manage their courses and track their learning progress.
+
+## Run locally
+
+With Node.js and npm installed, run from the repository root:
+
+```bash
+npm install
+npm start
+```
+
+Use an Android emulator or a compatible Expo Go device.
+
+## Data and limitations
+
+This is an internship LMS prototype with bundled course descriptions and lesson titles. Completion is self-reported with a button and saved in AsyncStorage; it does not assess learning. Material downloads write bundled text to local files for offline reading, rather than fetching a hosted course library. No accounts, hosted LMS or cross-device synchronization are implemented. Device/offline behavior was not run during this documentation review.
